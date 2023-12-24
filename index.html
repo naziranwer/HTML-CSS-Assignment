@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar section   -->
+    <nav>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#order">Order</a></li>
+        <li><a href="#food">Food</a></li>
+        <li><a href="#restaurant">Restaurant</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+      <div>
+        <img
+          class="hamburger"
+          src="/menu-bar.png"
+          alt="Hamburger-menu"
+          width="50px"
+          height="50px"
+        />
+      </div>
+    </nav>
+    <!-- 1st section  -->
+
+    <section class="description-section">
+      <div class="description-left">
+        <h1>LOREM IPSUM</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto quae
+          iste eaque et tempore quis at qui dicta facilis nam dolor, ducimus
+          sint cupiditate modi fugit impedit tempora, hic, optio cumque omnis
+          consectetur! Facilis odit odio cupiditate consequatur explicabo, ipsum
+          cum ab excepturi. Facilis modi, ex magni quibusdam, obcaecati
+          veritatis, aspernatur accusantium dolor iusto ratione possimus
+          consequuntur laborum in quo impedit soluta? Assumenda architecto vel,
+          harum repellat, alias nemo a esse quasi, modi dolorem officia maxime
+          ipsa voluptatibus dolorum perferendis quo. Quae, et fugiat.
+        </p>
+        <button>Click Me</button>
+      </div>
+      <div class="description-right">
+        <img src="/pexels-robin-stickel-70497.jpg" alt="Description Image" />
+      </div>
+    </section>
+
+    <!-- 2nd section -->
+    <section class="second-section">
+      <div class="second-left">
+        <div class="column1">
+          <img
+            src="/pexels-rachel-claire-6752433.jpg"
+            alt="Image 1"
+            width="250px"
+            height="150px"
+          />
+          <img
+            src="/pexels-eva-bronzini-6141651.jpg"
+            alt="Image 2"
+            width="250px"
+            height="150px"
+          />
+        </div>
+        <div class="column2">
+          <img
+            src="/pexels-mister-mister-3434523.jpg"
+            alt="Image 3"
+            width="250px"
+            height="317px"
+          />
+        </div>
+      </div>
+      <div class="second-right">
+        <div class="box">
+          <p>LOREM IPSUM</p>
+          <h1>LOREM IPSUM SET ADEMIR</h1>
+          <div>
+            <span>Click</span>
+            <img
+              src="/icons8-arrow-30.png"
+              alt="Small Image"
+              width="10px"
+              height="10px"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ... -->
+
+    <script>
+      document
+        .querySelector(".hamburger")
+        .addEventListener("click", function () {
+          document.querySelector(".menu").classList.toggle("active");
+        });
+    </script>
+  </body>
+</html>
